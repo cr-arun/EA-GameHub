@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+  
+    height: 100%;
+  }
+  .story {
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    border-bottom: 1px solid grey;
+    overflow: auto;
+  }
+  
+  .story {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  /* Hide scrollbar in Webkit browsers (Chrome, Safari) */
+  .story::-webkit-scrollbar {
+    width: 0.5em; /* Set a width for the scrollbar */
+  }
+  
+  .story::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the color of the scrollbar thumb */
+  }
+  
+  h3 {
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+  .user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Adjust margin between user containers */
+  }
+  span {
+    font-size: 10px;
+    overflow: hidden;
+    overflow: hidden;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    text-overflow: ellipsis;
+  }
+  .user-profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .story {
+      padding: 5px;
+      order: 2; /* Set the order to 2 for smaller screens */
+      overflow: auto;
+    }
+  
+    h3 {
+      order: 1; /* Set the order to 1 for smaller screens */
+    }
+  
+    .user-container {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }

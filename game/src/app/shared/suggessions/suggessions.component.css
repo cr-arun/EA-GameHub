@@ -1,0 +1,44 @@
+.container {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heading {
+    display: flex;
+    font-size: 10px;
+  }
+  
+  .hidden {
+    margin-left: 20px;
+    opacity: 0.1;
+  }
+  
+  .sugg-img {
+    height: 30px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+  .comp {
+    font-size: 8px;
+    opacity: 0.5;
+  }
+  .sugg-con {
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    border-bottom: 1px solid grey;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }

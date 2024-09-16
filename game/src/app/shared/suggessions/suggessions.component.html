@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="heading">
+      <p>Game suggestions</p>
+      <p class="hidden">See All</p>
+    </div>
+    <div class="card">
+      <div class="cards" *ngFor="let suggestion of suggestions">
+        <img class="sugg-img" [src]="suggestion.image" alt="sugg" />
+        <div class="sugg-con">
+          <div class="info">
+            <div class="name">
+              <p>{{ suggestion.name }}</p>
+              <span class="comp">{{ suggestion.name }}</span>
+            </div>
+            <mat-icon>chevron_right</mat-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,16 @@
+<mat-toolbar-row class="nav">
+    <div class="left-side">
+      <img src="assets/logo.png" alt="logo" class="logo" />
+      <span (click)="navigateTo('/dashboard/feed')">Home</span>
+  
+      <span>Communities</span>
+      <span>Events</span>
+      <mat-icon>search</mat-icon>
+    </div>
+    <div class="right-side">
+      <mat-icon (click)="openFormDialog()">library_add</mat-icon>
+      <mat-icon class="icon">favorite_border</mat-icon>
+      <img src="assets/users/user1.png" alt="user" class="user-profile-image" />
+      <span (click)="navigateTo('/dashboard/user')">User</span>
+    </div>
+  </mat-toolbar-row>

@@ -1,0 +1,41 @@
+.mat-toolbar-row.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #101114; 
+    color: white;
+    padding: 25px 0px;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 80%; /* Adjust as needed */
+    height: 35px;
+    margin-right: 10px;
+    padding: 0 20px;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  span {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  mat-icon {
+    padding: 0px 20px;
+  }
+  .user-profile-image {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .right-side span {
+    margin-left: 10px;
+  }

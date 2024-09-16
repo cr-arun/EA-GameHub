@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="left">
+      <img class="logo" src="assets/logo.png" alt="Logo Image" />
+      <img class="girl" src="assets/login/girl.png" alt="image" />
+    </div>
+    <div class="right">
+      <h5>Welcome back!</h5>
+      <p>Enter your login credentials</p>
+  
+      <div class="form">
+        <mat-form-field class="custom-mat-field">
+          <mat-label>Username</mat-label>
+          <input matInput formControlName="username" class="custom-input" />
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill" class="custom-mat-field">
+          <mat-label>Password</mat-label>
+          <input
+            matInput
+            type="password"
+            formControlName="password"
+            class="custom-input"
+            required
+          />
+        </mat-form-field>
+      </div>
+      <button mat-raised-button class="btn" type="submit">Login</button>
+    </div>
+  </div>

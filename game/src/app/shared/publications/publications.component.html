@@ -1,0 +1,29 @@
+<mat-card *ngFor="let user of users">
+    <mat-card-content>
+      <div class="container">
+        <div class="left">
+          <div class="header">
+            <img [src]="user.profilePic" alt="user" class="user-profile-image" />
+            <span class="name">{{ user.name }}</span>
+          </div>
+          <div class="share">
+            <mat-icon class="icon">favorite_border</mat-icon>
+            <span class="icontext">123</span>
+            <mat-icon class="icon">comment</mat-icon
+            ><span class="icontext">123</span>
+            <mat-icon class="icon">share</mat-icon>
+          </div>
+          <div class="content">
+            <p>{{ user.description }}</p>
+          </div>
+          <div class="comments">
+            <p class="expand">View all comments</p>
+            <p class="allcomments">{{ user.description }}</p>
+          </div>
+        </div>
+        <div class="right">
+          <img [src]="user.picture" alt="post" class="post-image" />
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>

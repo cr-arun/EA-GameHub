@@ -1,0 +1,53 @@
+mat-card {
+    background-color: #101114;
+    width: 100%;
+    border-bottom: 0.5px solid #808080ba;
+    border-radius: 0%;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  .header {
+    display: flex;
+  }
+  .name {
+    padding: 10px;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .user-profile-image {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .user-profile-image,
+  .post-image {
+    max-width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    height: auto;
+  }
+  .expand {
+    opacity: 0.1;
+    cursor: pointer;
+  }
+  .icon {
+    padding: 0px 10px;
+  }
+  .content {
+    max-height: 10px;
+    overflow: hidden;
+  }
+  
+  .header,
+  .share,
+  .content {
+    padding: 10px;
+  }
+  .share {
+    display: flex;
+    align-items: center;
+  }
